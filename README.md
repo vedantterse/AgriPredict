@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# AgriPredict AI - Landing Page
 
-Currently, two official plugins are available:
+## React + TypeScript + Vite
+#### This repository contains the landing page for AgriPredict AI, an AI-powered price prediction model for essential food commodities. 
+#### The landing page provides an overview of the solution, highlights key features, and includes a video demonstration of the project.
+![image](https://github.com/user-attachments/assets/774230a3-9051-400d-aa69-d5e1b02e28ab)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+### - Overview of the AI-driven price prediction model
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### - Key challenges addressed by the solution
 
-- Configure the top-level `parserOptions` property like this:
+### - Explanation of data sources and prediction methodology
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### - Call-to-action buttons, including Try for Free
+
+### - Embedded video demonstration of the project
+
+## Setup Instructions:- 
+
+## To run the landing page locally, follow these steps:
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/vedantterse/AgriPredict.git
+```
+```bash
+cd AgriPredict
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+### Install dependencies:
+```bash
+npm install
+```
+```bash
+npm run update-browserslist
+```
+
+### Start the development server:
+```bash
+npm run dev
+```
+
+The landing page will be available at http://localhost:5173/.
+
+## VIDEO DEMOSTRATION:-
+![demo-v](https://github.com/user-attachments/assets/3617cab2-5cff-4a4c-98f4-77f59ded3181)
+
+
+## Note
+### This is a standalone front-end application and does not include the backend model integration.
+
+
