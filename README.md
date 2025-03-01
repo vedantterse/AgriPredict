@@ -48,7 +48,8 @@ npm run dev
 The landing page will be available at http://localhost:5173/.
 
 ## VIDEO DEMOSTRATION:-
-![demo-v](https://github.com/user-attachments/assets/3617cab2-5cff-4a4c-98f4-77f59ded3181)
+
+![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/352735dc-0475-4a40-b36d-9d651e21e636)
 
 
 ## Note
